@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
+	<LicenseInfo>
+		<SystemId>{6930079B-857A-104D-52CC-E4F3213904CE}</SystemId>
+		<IssueTime>2024-04-22T13:14:00</IssueTime>
+		<ExpireTime>2024-04-30T00:00:00</ExpireTime>
+		<OemId>{C5B6F923-A409-F663-E9D0-4E21B8852435}</OemId>
+		<LicenseKey>d6b0a65348a995dffeec80983700b916b8a989a569643c23b7cd1268f19bfb4239fda379141c70a23a274bc163bae176bb68f7522b888c605cbc20910d988a2d32af54032be7b0772be81876b99de1d357a5857f01adc9bfa1ad65328f94a28f26f955145033af36ba962b6c79b515f1caeaa8a68bb7fbee444224c1b8a3655caff78a94687c9b729a517922c459f173279b736393774cf62c7ee0a27f926b2d068b03a81ef1350dba635abb5f030c1a0961a12bafc8a36afad72cf1e9c082ca06edcad14f5abcc5d6b9c795903ba4de61be2745ec0079d32d52ca4bd075dc22fcbf7d7ffd67312b633bef2c1d9b63edcad35c4f0961ac0226710f246d1edfbb</LicenseKey>
+		<License>
+			<LicenseId>{86E801DA-D766-479A-B8BD-B88BF7CB0709}</LicenseId>
+			<Name>Teknike Geral</Name>
+			<OrderNo>TEK0000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{05F3F7DA-F1F3-425B-9124-1665F012FB6E}</LicenseId>
+			<Name>Teknike Sensores</Name>
+			<OrderNo>TEK2000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{17F8A500-35EB-4504-A538-37BC9FA779F1}</LicenseId>
+			<Name>Teknike Partidas</Name>
+			<OrderNo>TEK1000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{7B4694D5-AEB4-4168-B911-6F1BA4CB3B1D}</LicenseId>
+			<Name>Teknike SQL</Name>
+			<OrderNo>TEK3000</OrderNo>
+		</License>
+	</LicenseInfo>
+</TcLicenseInfo>

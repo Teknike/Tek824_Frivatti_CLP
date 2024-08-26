@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance2" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" GeneratedBy="TwinCAT XAE Plc">
+  <DataTypes>
+    <DataType>
+      <Name GUID="{FD3BC52F-A321-458F-BF88-1104ECEA7122}" PersistentType="true">st_Base_From_Remota</Name>
+      <BitSize>1440</BitSize>
+      <SubItem>
+        <Name>xHeartBeat</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <Comment><![CDATA[ nosso sinal pra ele ver que tamo comunicando]]></Comment>
+        <BitSize>8</BitSize>
+        <BitOffs>0</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>xCPUOnline</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <Comment><![CDATA[ sinal nosso pra ele saber que nos vimos que ele ta online, caso so o nosso lado esteja comunicando e o dele nao]]></Comment>
+        <BitSize>8</BitSize>
+        <BitOffs>8</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>xPassou1Scan</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <BitSize>8</BitSize>
+        <BitOffs>16</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>xReserva</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <ArrayInfo>
+          <LBound>1</LBound>
+          <Elements>25</Elements>
+        </ArrayInfo>
+        <BitSize>200</BitSize>
+        <BitOffs>24</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>iReserva</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+        <ArrayInfo>
+          <LBound>1</LBound>
+          <Elements>25</Elements>
+        </ArrayInfo>
+        <BitSize>400</BitSize>
+        <BitOffs>224</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>rReserva</Name>
+        <Type GUID="{18071995-0000-0000-0000-00000000000D}">REAL</Type>
+        <ArrayInfo>
+          <LBound>1</LBound>
+          <Elements>25</Elements>
+        </ArrayInfo>
+        <BitSize>800</BitSize>
+        <BitOffs>640</BitOffs>
+      </SubItem>
+      <Hides>
+        <Hide GUID="{7882819C-427B-4D83-B2D2-04695EA8A98C}" />
+      </Hides>
+    </DataType>
+    <DataType>
+      <Name GUID="{BB473143-9783-4734-BDB9-B85EF30687D7}" PersistentType="true">st_Base_From_CPU</Name>
+      <BitSize>1440</BitSize>
+      <SubItem>
+        <Name>xHeartBeat</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <Comment><![CDATA[ nosso sinal pra ele ver que tamo comunicando]]></Comment>
+        <BitSize>8</BitSize>
+        <BitOffs>0</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>xRemotaOnline</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <Comment><![CDATA[ sinal nosso pra ele saber que nos vimos que ele ta online, caso so o nosso lado esteja comunicando e o dele nao]]></Comment>
+        <BitSize>8</BitSize>
+        <BitOffs>8</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>xPassou1Scan</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <BitSize>8</BitSize>
+        <BitOffs>16</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>xReserva</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+        <ArrayInfo>
+          <LBound>1</LBound>
+          <Elements>25</Elements>
+        </ArrayInfo>
+        <BitSize>200</BitSize>
+        <BitOffs>24</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>iReserva</Name>
+        <Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+        <ArrayInfo>
+          <LBound>1</LBound>
+          <Elements>25</Elements>
+        </ArrayInfo>
+        <BitSize>400</BitSize>
+        <BitOffs>224</BitOffs>
+      </SubItem>
+      <SubItem>
+        <Name>rReserva</Name>
+        <Type GUID="{18071995-0000-0000-0000-00000000000D}">REAL</Type>
+        <ArrayInfo>
+          <LBound>1</LBound>
+          <Elements>25</Elements>
+        </ArrayInfo>
+        <BitSize>800</BitSize>
+        <BitOffs>640</BitOffs>
+      </SubItem>
+      <Hides>
+        <Hide GUID="{C1339E44-AD5A-4FA8-BF86-EEAD4E2222ED}" />
+      </Hides>
+    </DataType>
+  </DataTypes>
+</TcModuleClass>
