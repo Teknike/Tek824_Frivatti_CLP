@@ -1,10 +1,71 @@
 <?xml version="1.0"?>
 <TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
 	<LicenseInfo>
-		<SystemId>{88F27B81-2317-1125-FC8E-5BBACBB2F0FF}</SystemId>
-		<IssueTime>2024-08-19T17:36:00</IssueTime>
-		<ExpireTime>2024-08-27T00:00:00</ExpireTime>
-		<LicenseKey>cdc977fd69b80e336438d560d49f2625bdd09a60b36dc62db2ffd378ac069dcabe126d1b300acc266470f02aed0140c7967422f1cfcec925746ab3368f83eaac11aa05efebf4b8cac9f36703c9444cbaf3126b46fb70571a251af296a24385be47bb0d568cf4539d3b3d99662cbccbe8f4dc030b3ac9f579fbbb9570a2f58dfda079da0a1368e73be76994885522b2490af782231543653fac4bcf190050ff1715b2379fb32aff190809e5d3878e33949bfba83e257f6f685e06b911b53aa859ad48cc5e623b186d1a02aa6944d70409c15bda5cff387f058d5849c051ac4ec75b008a0efa97f9e3717316bfa5c8474d90903ffd415cc16ae656f1c7d947f542</LicenseKey>
+		<SystemId>{2C110A28-C504-C883-0866-AFE686C32F4C}</SystemId>
+		<IssueTime>2024-09-03T18:34:00</IssueTime>
+		<ExpireTime>2024-09-11T00:00:00</ExpireTime>
+		<LicenseKey>f419df89bd3bcaadc0b15ea7ab34ecdf64301c92528d674b2b2ba10cd332f466ec20d9453af3d9a5d88f843d7e6af86f151d235e0c1e5a46f6f53ca0f16a7003ad4b52a785a8a8ad5fcfb11c753cb2329aa214b8cdfd58ece183089b7a449122a9514f74c7ad23acc9a3820e0e0a7fa32b1a8312c199691841b653bb075940b65528c5e872a8bc95f0d19c57a4ba9fb2078ff00b5d50c54a8662e9a30e2e8b49205a9b273fd92c678d287540455bd7aa64a0758e3002567e2c029424d6c1478fbf022cd78a19c7144a7551e0f26339ebdfb622ebbe7308dd5a6080de75a63da4cef89046ccb719f8a0c000a53cd59afa3c8508645e900028a5c623323b2f85a6</LicenseKey>
+		<License>
+			<LicenseId>{081AC839-28D0-49CA-9792-72680E1F3249}</LicenseId>
+			<Name>TC3 TCP/UDP RT</Name>
+			<OrderNo>TF6311</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{2A62CBE6-0999-4FCB-AF97-0676B22890FB}</LicenseId>
+			<Name>TC3 S7 Communication</Name>
+			<OrderNo>TF6620</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{56ADDFFF-32FF-4DC7-A432-0D2D8413616A}</LicenseId>
+			<Name>TC3 Profinet IO-Device</Name>
+			<OrderNo>TF6270</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{EA2D2277-B540-4BF0-A581-CF62D3140F06}</LicenseId>
+			<Name>TC3 Profinet Controller</Name>
+			<OrderNo>TF6271</OrderNo>
+			<Instances>1</Instances>
+		</License>
+		<License>
+			<LicenseId>{A2091C4C-7D04-4202-B173-9984E7125BC0}</LicenseId>
+			<Name>TC3 HMI Targets</Name>
+			<Instances>1</Instances>
+		</License>
+		<License>
+			<LicenseId>{4C256767-E6E6-4AF5-BD68-9F7ABAD0C200}</LicenseId>
+			<Name>TC3 ADS</Name>
+			<OrderNo>TC1000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{92583661-35AE-45CE-BD4F-C35BFE16F07E}</LicenseId>
+			<Name>TC3 Database-Server</Name>
+			<OrderNo>TF6420</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{777F1598-583B-4503-99BB-7C02E0ABD97E}</LicenseId>
+			<Name>TC3 Controller Toolbox</Name>
+			<OrderNo>TF4100</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{796D380F-D49E-4C0C-A05F-500052FAC883}</LicenseId>
+			<Name>TC3 HMI Server</Name>
+			<OrderNo>TF2000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{66689887-CCBD-452C-AC9A-039D997C6E66}</LicenseId>
+			<Name>TC3 PLC</Name>
+			<OrderNo>TC1200</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{2752D285-16AD-4E89-AE6C-80E72784D264}</LicenseId>
+			<Name>TC3 HMI Clients Pack 1</Name>
+			<OrderNo>TF2010</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{3EBB9639-5FF3-42B6-8847-35C70DC013C8}</LicenseId>
+			<Name>TC3 TCP/IP</Name>
+			<OrderNo>TF6310</OrderNo>
+		</License>
 		<License>
 			<LicenseId>{37E5160D-987B-4640-888D-0F97727B53E2}</LicenseId>
 			<Name>TC3 HMI Clients</Name>
@@ -16,53 +77,9 @@
 			<OrderNo>TF2045</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{4C256767-E6E6-4AF5-BD68-9F7ABAD0C200}</LicenseId>
-			<Name>TC3 ADS</Name>
-			<OrderNo>TC1000</OrderNo>
-		</License>
-		<License>
 			<LicenseId>{3FF18E97-7754-401B-93FB-70544DE28A13}</LicenseId>
 			<Name>TC3 IO</Name>
 			<OrderNo>TC1100</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{66689887-CCBD-452C-AC9A-039D997C6E66}</LicenseId>
-			<Name>TC3 PLC</Name>
-			<OrderNo>TC1200</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{777F1598-583B-4503-99BB-7C02E0ABD97E}</LicenseId>
-			<Name>TC3 Controller Toolbox</Name>
-			<OrderNo>TF4100</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{A2091C4C-7D04-4202-B173-9984E7125BC0}</LicenseId>
-			<Name>TC3 HMI Targets</Name>
-			<Instances>1</Instances>
-		</License>
-		<License>
-			<LicenseId>{CCE50C10-2CAA-4243-8182-080F02C5BE3D}</LicenseId>
-			<Name>TC3 Reporting Server</Name>
-		</License>
-		<License>
-			<LicenseId>{796D380F-D49E-4C0C-A05F-500052FAC883}</LicenseId>
-			<Name>TC3 HMI Server</Name>
-			<OrderNo>TF2000</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{92583661-35AE-45CE-BD4F-C35BFE16F07E}</LicenseId>
-			<Name>TC3 Database-Server</Name>
-			<OrderNo>TF6420</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{3EBB9639-5FF3-42B6-8847-35C70DC013C8}</LicenseId>
-			<Name>TC3 TCP/IP</Name>
-			<OrderNo>TF6310</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{2752D285-16AD-4E89-AE6C-80E72784D264}</LicenseId>
-			<Name>TC3 HMI Clients Pack 1</Name>
-			<OrderNo>TF2010</OrderNo>
 		</License>
 	</LicenseInfo>
 </TcLicenseInfo>
